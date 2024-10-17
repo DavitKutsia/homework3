@@ -3,7 +3,7 @@ import './Card.css';
 
 export default function Card({ imgSrc, name, age, desc = 'No desc', bg }) {
   const handleButtonClick = () => {
-    window.open('https://lichess.com', '_blank');
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
   };
 
   return (
@@ -12,7 +12,7 @@ export default function Card({ imgSrc, name, age, desc = 'No desc', bg }) {
       <h1>Name: {name}</h1>
       <h2>Age: {age}</h2>
       <p>{desc}</p>
-      <button onClick={handleButtonClick}>Go to Lichess</button>
+      <button onClick={handleButtonClick}>Go to Amazon</button>
     </div>
   );
 }

@@ -1,0 +1,109 @@
+body{
+    width: calc(95% - 100px);
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 100px;
+}
+
+input{
+    outline: none;
+    width: 1200px;
+    height: 55px;
+    font-size: 30px;
+    padding: 5px;
+    padding-inline: 10px;
+    border: 10px solid rgb(199, 1, 1);
+    border-radius: 15px;
+}
+
+.Submit{
+    width: 330px;
+    height: 65px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid gold;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.Submit:hover{
+    transform: scale(1.03);
+}
+
+.count{
+    color: chartreuse;
+}
+
+.countDiv{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.countDiv button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(158, 87, 0);
+    color: aqua;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.countDiv button:hover{
+    transform: scale(1.05);
+}
+
+
+.app {
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+
+.light-theme {
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+  
+
+.dark-theme {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+  
+
+
+.theme {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: darkviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.theme:hover{
+    transform: scale(1.05);
+}
